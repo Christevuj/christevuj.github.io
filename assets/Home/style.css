@@ -1,0 +1,171 @@
+.box {
+  width: 1920px;
+  height: 1080px;
+}
+
+.box .home {
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/3969-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box .overlap {
+  position: relative;
+  width: 1720px;
+  height: 719px;
+  top: 76px;
+  left: 100px;
+}
+
+.box .group {
+  position: absolute;
+  width: 1720px;
+  height: 719px;
+  top: 0;
+  left: 0;
+}
+
+.box .div {
+  position: absolute;
+  width: 1042px;
+  height: 335px;
+  top: 384px;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: absolute;
+  width: 1036px;
+  height: 199px;
+  top: 0;
+  left: 0;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 153px;
+  top: 0;
+  left: 12px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  width: 1036px;
+  top: 18px;
+  left: 0;
+  font-family: "Viga", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 170px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .p {
+  position: absolute;
+  width: 515px;
+  top: 226px;
+  left: 12px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffffb2;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.box .group-2 {
+  position: absolute;
+  width: 1720px;
+  height: 37px;
+  top: 0;
+  left: 0;
+}
+
+.box .group-3 {
+  position: absolute;
+  width: 594px;
+  height: 22px;
+  top: 7px;
+  left: 636px;
+}
+
+.box .text-wrapper-3 {
+  position: absolute;
+  width: 93px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-4 {
+  position: absolute;
+  width: 149px;
+  top: 0;
+  left: 149px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-5 {
+  position: absolute;
+  width: 251px;
+  top: 0;
+  left: 337px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.box .img {
+  position: absolute;
+  width: 79px;
+  height: 25px;
+  top: 6px;
+  left: 1641px;
+}
+
+.box .vector {
+  position: absolute;
+  width: 50px;
+  height: 37px;
+  top: 0;
+  left: 0;
+}
+
+.box .line {
+  position: absolute;
+  width: 79px;
+  height: 1px;
+  top: 39px;
+  left: 636px;
+  object-fit: cover;
+}
