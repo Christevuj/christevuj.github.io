@@ -8,8 +8,8 @@
 }
 
 body{
-  background: #e0902d;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
 }
 .profile-container {
   position: relative;
@@ -49,17 +49,18 @@ body{
 
 .navbar a{
   font-size: 18px;
-  color: #fff;
+  color: #525252;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
-}
+}}
 
 .navbar a.active,
 .navbar a:hover {
-  background: linear-gradient(45deg, rgb(255, 0, 38), rgb(31, 2, 21));
+  background: linear-gradient(45deg, rgba(255, 204, 0, 0.919), rgb(244, 169, 6));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-weight: bold;
 
  }
 
