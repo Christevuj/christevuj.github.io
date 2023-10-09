@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline JS Demo</title>    
+</head>
+<body>
+    <h1>Income Category</h1>
+    <span>Name of Category</span><br>
+    <input type="text" id="txtCatName"><br>
+    <span>Description</span><br>
+    <input type="text" id="txtCatDesc"><br>
+    <input type="button" id="btnAdd" value="Add">
+    <hr>
+    <h1>List of Income Category</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="listIncomeCat">
+
+        </tbody>
+    </table>
+    <script>
+        // bind DOM components
+        let a = document.getElementById("txtCatName")
+        let b = document.getElementById("txtCatDesc")
+        let c = document.getElementById("btnAdd")
+        let d = document.getElementById("listIncomeCat")
+
+        c.addEventListener("click", addIncomeCat)
+
+        function addIncomeCat() {
+            let catName = a.value;
+            let catDesc = b.value;
+    
+            // Create the HTML for the new row
+            let newRowHTML = `
+                <tr>
+                    <td>${catName}</td>
+                    <td>${catDesc}</td>
+                </tr>
+            `;
+    
+            // Append the new row HTML to the tbody
+            d.innerHTML += newRowHTML;
+    
+            // Clear the input fields
+            a.value = "";
+            b.value = "";
+        }
+   
+
+    </script>    
+</body>
+</html>
